@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from 'react';
-import { Upload, FileSpreadsheet, AlertCircle } from 'lucide-react';
+import { FileSpreadsheet, AlertCircle } from 'lucide-react';
 import { clsx } from 'clsx';
 import { parseExcelFile } from '../utils/analysis';
 import { Meeting } from '../types';

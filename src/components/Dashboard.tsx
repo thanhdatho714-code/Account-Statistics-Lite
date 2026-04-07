@@ -347,7 +347,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ analysis, onReset }) => {
                     paddingAngle={5}
                     dataKey="value"
                   >
-                    {analysis.meetingsByParticipants.map((entry, index) => (
+                    {analysis.meetingsByParticipants.map((_entry, index) => (
                       <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                     ))}
                   </Pie>
